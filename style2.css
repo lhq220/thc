@@ -5,14 +5,14 @@ a{color:#000;text-decoration:none;outline:none;hide-focus:expression(this.hideFo
 .greenbtn:hover{background-color:#22b090;}
 .blackbtn:hover{background-color:#000;}
 html,body{overflow-x:hidden;}body{min-width:320px;background:#242f2f;font-family: Arial, Helvetica, sans-serif;color:#000;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;cursor:default;}body > object p{display:none;}
-.logo,.mainNav dt,.wrap_logo,.wrap_ied .baqz{background-image:url(http://cdn.rawgit.com/lhq220/thc/master/img/nav-copy.png);background-repeat:no-repeat;}
-.qnav,.guide,.features,.gamedata{background-image:url(http://cdn.rawgit.com/lhq220/thc/master/img/bg-home2.jpg);background-repeat:no-repeat;}
+.logo,.mainNav dt,.wrap_logo,.wrap_ied .baqz{background-image:url(https://cdn.rawgit.com/lhq220/thc/master/img/nav-copy.png);background-repeat:no-repeat;}
+.qnav,.guide,.features,.gamedata{background-image:url(https://cdn.rawgit.com/lhq220/thc/master/img/bg-home2.jpg);background-repeat:no-repeat;}
 @font-face {font-family: "homeicon";
-  src: url('http://cdn.rawgit.com/lhq220/thc/master/iconfont/homeicon.eot'); /* IE9*/
-  src: url('http://cdn.rawgit.com/lhq220/thc/master/iconfont/homeicon.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('http://cdn.rawgit.com/lhq220/thc/master/iconfont/homeicon.woff') format('woff'), /* chrome, firefox */
-  url('http://cdn.rawgit.com/lhq220/thc/master/iconfont/homeicon.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('http://cdn.rawgit.com/lhq220/thc/master/iconfont/homeicon.svg#iconfont') format('svg'); /* iOS 4.1- */
+  src: url('https://cdn.rawgit.com/lhq220/thc/master/iconfont/homeicon.eot'); /* IE9*/
+  src: url('https://cdn.rawgit.com/lhq220/thc/master/iconfont/homeicon.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('https://cdn.rawgit.com/lhq220/thc/master/iconfont/homeicon.woff') format('woff'), /* chrome, firefox */
+  url('https://cdn.rawgit.com/lhq220/thc/master/iconfont/homeicon.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('https://cdn.rawgit.com/lhq220/thc/master/iconfont/homeicon.svg#iconfont') format('svg'); /* iOS 4.1- */
 }
 .homeicon{
   font-family:"homeicon" !important;
@@ -36,7 +36,7 @@ html,body{overflow-x:hidden;}body{min-width:320px;background:#242f2f;font-family
 .play .conlist {z-index: 10;position: relative;}
 .play .conlist em { width:200px;}
 .play .moretitle {padding:20px 0 5px;*padding-top:10px;}
-.play_a {position:absolute; top:0;left:0; z-index:1; width:58px; height:317px; background:url(http://cdn.rawgit.com/lhq220/thc/master/img/img_20.jpg) no-repeat;}
+.play_a {position:absolute; top:0;left:0; z-index:1; width:58px; height:317px; background:url(https://cdn.rawgit.com/lhq220/thc/master/img/img_20.jpg) no-repeat;}
 .play_a1 { background-position:0 0;}
 .play_a2 { background-position:-59px 0;}
 .play_a3 { background-position:-118px 0;}
@@ -46,7 +46,7 @@ html,body{overflow-x:hidden;}body{min-width:320px;background:#242f2f;font-family
 .play_a7 { background-position:-354px 0;}
 .play_a8 { background-position:-413px 0;}
 
-.wrapper{width:100%;text-align:center;background:#e6ebea url(http://cdn.rawgit.com/lhq220/thc/master/img/bg.jpg) no-repeat 50% 0;padding:0 0 80px;}
+.wrapper{width:100%;text-align:center;background:#e6ebea url(https://cdn.rawgit.com/lhq220/thc/master/img/bg.jpg) no-repeat 50% 0;padding:0 0 80px;}
 .container{width:1000px;position:relative;margin:0 auto;text-align:left;overflow:hidden;}
 .header{position:relative;height:380px;}
 .logo{position:absolute;top:28px;left:0;width:191px;height:67px;background-position:0 0;}.logo a{display:block;height:100%;text-indent:-9999px;}
@@ -91,9 +91,9 @@ html,body{overflow-x:hidden;}body{min-width:320px;background:#242f2f;font-family
 .inframe .icon{text-align:center;position:absolute;left:50%;top:50%;color:#e4faf7;font-family:'kaiti',tahoma,'宋体';}
 .inframe .icon b{font-weight:normal;text-shadow:1px 1px 1px rgba(0,0,0,.5);}
 /* media */
-.media .wrapper{background-image:url(http://cdn.rawgit.com/lhq220/thc/master/img/vsbg.jpg);}
+.media .wrapper{background-image:url(https://cdn.rawgit.com/lhq220/thc/master/img/vsbg.jpg);}
 .media .header{height:400px;}
-.media .slogo,.navother .noa{background-image:url(http://cdn.rawgit.com/lhq220/thc/master/img/icon-stsy.png);background-repeat:no-repeat;}
+.media .slogo,.navother .noa{background-image:url(https://cdn.rawgit.com/lhq220/thc/master/img/icon-stsy.png);background-repeat:no-repeat;}
 .media .slogo{bottom:21px;right:5px;width:280px;height:119px;background-position:50% 0;}
 .media .note{display:none;background:none;}
 .content{clear:both;position:relative;padding:0 5px;*zoom:1;}
@@ -113,7 +113,7 @@ html,body{overflow-x:hidden;}body{min-width:320px;background:#242f2f;font-family
 /* news */
 .mainpart,.newsconcent{min-height:660px;height:auto!important;height:660px;}
 .newspage .main{margin:0 0 0 320px;}
-.newspage .label,.newspage .label h2,.newspage .path b{background-image:url(http://cdn.rawgit.com/lhq220/thc/master/img/newspr.png);}
+.newspage .label,.newspage .label h2,.newspage .path b{background-image:url(https://cdn.rawgit.com/lhq220/thc/master/img/newspr.png);}
 .newspage .label h2{width:208px;}
 .newspage .path b{background-position:-588px -165px;}
 .newsconcent{background:#fff;padding:30px 40px;color:#797979;}
@@ -153,8 +153,8 @@ html,body{overflow-x:hidden;}body{min-width:320px;background:#242f2f;font-family
 .more .cur,.more .morer:hover{background:#22b090;}
 .article{position:absolute;top:0;left:5px;}
 .article h2{color:#2fc3a2;font-size:32px;font-weight:bold;padding:20px 0 0 30px;}
-.snav .g2 a,.gdnav .soa a{background-image:url(http://cdn.rawgit.com/lhq220/thc/master/img/icon_2.png);background-repeat:no-repeat;}
-.snav .topbig{background-image:url(http://cdn.rawgit.com/lhq220/thc/master/img/forhome_2.jpg);background-repeat:no-repeat;}
+.snav .g2 a,.gdnav .soa a{background-image:url(https://cdn.rawgit.com/lhq220/thc/master/img/icon_2.png);background-repeat:no-repeat;}
+.snav .topbig{background-image:url(https://cdn.rawgit.com/lhq220/thc/master/img/forhome_2.jpg);background-repeat:no-repeat;}
 .snav{width:100%;height:100%;overflow:hidden;background-color:#277d6b;}
 .snav a{display:block;height:100%;text-align:center;-webkit-transition:all .3s ease-out 0s;transition:all .3s ease-out 0s;}
 .snav .g1{width:100%;}
@@ -173,7 +173,7 @@ html,body{overflow-x:hidden;}body{min-width:320px;background:#242f2f;font-family
 .gdnav a{display:block;color:#8b8b8b;}
 .gdnav .soa a{padding:2px 0 2px 12px;background-position:0 -2331px;}
 .gdnav .soa a:hover{color:#2fc3a2;background-position:0 -2300px;}
-.features{background:#fff url(http://cdn.rawgit.com/lhq220/thc/master/img/innerguide.jpg) no-repeat 100% 100%;/*background-color:#fff;background-position:100% 0;*/top:295px;}
+.features{background:#fff url(https://cdn.rawgit.com/lhq220/thc/master/img/innerguide.jpg) no-repeat 100% 100%;/*background-color:#fff;background-position:100% 0;*/top:295px;}
 .features .gdnav{width:130px;}
 .features .more{position:absolute;bottom:30px;left:30px;}
 .newsbanns{top:590px;}
@@ -287,7 +287,7 @@ html,body{overflow-x:hidden;}
 .wrapper{background-position:42% 0;}
 .snav .g2 a,.gdnav .soa a,.snav .topbig,.features{background-image:none;}
 .container{width:645px;}
-.logo{left:50%;top:220px;margin:0 0 0 -90px;background:url(http://cdn.rawgit.com/lhq220/thc/master/img/logo.png) no-repeat 50% 50%;}
+.logo{left:50%;top:220px;margin:0 0 0 -90px;background:url(https://cdn.rawgit.com/lhq220/thc/master/img/logo.png) no-repeat 50% 50%;}
 .mainNav{padding:0;}
 .mainNav li{width:12%;}
 .mainNav li a{text-align:center;}
@@ -378,5 +378,5 @@ html,body{overflow-x:hidden;}
 @media screen and (max-width:320px){
 .ahd h2{font-size:14px;}
 }/*  |xGv00|4be2919bfef1f4b98c8a18ea69af79cf */
-.note{position:absolute;bottom:15px;right:0;width:399px;height:142px;background:url(http://cdn.rawgit.com/lhq220/thc/master/img/slogan20170704.png) no-repeat 50% 0;text-indent:-9999px;}
+.note{position:absolute;bottom:15px;right:0;width:399px;height:142px;background:url(https://cdn.rawgit.com/lhq220/thc/master/img/slogan20170704.png) no-repeat 50% 0;text-indent:-9999px;}
 .note .notelink{display:block;width:100;height:100%;text-indent:-9999px;}
