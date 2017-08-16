@@ -348,7 +348,7 @@ Main.prototype.gameData=function(){
 				intro=glb.getClass('mp-intro',glb.getId('mps'),'div');
                 reSetPos(0);
 			};
-			glb.delayLoad('http://cdn.rawgit.com/lhq220/thc/master/js/gamedata_united.js',curFunc);
+			glb.delayLoad('https://cdn.rawgit.com/lhq220/thc/master/js/gamedata_united.js',curFunc);
 		}
     },n=null,datatab=glb.getId('datatab'),line=glb.getClass('bdbotline',datatab,'em')[0],lineWidth=line.clientWidth,role=null,intro=null,
     changeTabs=function(e){
