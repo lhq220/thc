@@ -33,7 +33,7 @@ var init = {
         init.tabNews('#tabhd', init.Config.urltabHd)
         init.tabNews('#tabMedia', init.Config.urltabMedia)
 
-        init.tabNews('#tabpbtin', init.Config.urlPhoBanDon)
+        init.tabNews('#tabpbtin', init.Config.urlPhoBan)
         init.tabNews('#tabdon', init.Config.urlPhoBanDon)
         init.tabNews('#tab8x', init.Config.urlPhoBan8x)
         init.tabNews('#tab9x', init.Config.urlPhoBan9x)
