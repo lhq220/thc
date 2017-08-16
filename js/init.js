@@ -20,9 +20,9 @@ var init = {
         urlWolfGamingAnh: 'feeds/posts/default/-/WolfGamingAnh?alt=json&max-results=6',
 
         urlPhoBanDon: 'feeds/posts/default/-/PhoBanDon?alt=json&max-results=6',
-        urlPhoBan8x: 'feeds/posts/default/-/urlPhoBan8x?alt=json&max-results=6',
-        urlPhoBan9x: 'feeds/posts/default/-/urlPhoBan9x?alt=json&max-results=6',
-        urlPhoBan10x: 'feeds/posts/default/-/urlPhoBan10x?alt=json&max-results=6',
+        urlPhoBan8x: 'feeds/posts/default/-/PhoBan8x?alt=json&max-results=6',
+        urlPhoBan9x: 'feeds/posts/default/-/PhoBan9x?alt=json&max-results=6',
+        urlPhoBan10x: 'feeds/posts/default/-/PhoBan10x?alt=json&max-results=6',
 
     }),
     Main:() =>{
@@ -54,6 +54,7 @@ var init = {
             url: init.Config.url + f,
             dataType: 'jsonp',
             success: function(dataWeGotViaJsonp){
+
                 var html ='';      
                 dataWeGotViaJsonp.feed.entry.map((i,k)=>{
                     var date = new Date(i.published.$t);
