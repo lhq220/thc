@@ -19,6 +19,7 @@ var init = {
         urlWolfGamingVideo: 'feeds/posts/default/-/WolfGamingVideo?alt=json&max-results=6',
         urlWolfGamingAnh: 'feeds/posts/default/-/WolfGamingAnh?alt=json&max-results=6',
 
+        urlPhoBan: 'feeds/posts/default/-/PhoBan?alt=json&max-results=6',
         urlPhoBanDon: 'feeds/posts/default/-/PhoBanDon?alt=json&max-results=6',
         urlPhoBan8x: 'feeds/posts/default/-/PhoBan8x?alt=json&max-results=6',
         urlPhoBan9x: 'feeds/posts/default/-/PhoBan9x?alt=json&max-results=6',
@@ -31,7 +32,8 @@ var init = {
         init.tabNews('#tabevent', init.Config.urltabEvent)
         init.tabNews('#tabhd', init.Config.urltabHd)
         init.tabNews('#tabMedia', init.Config.urltabMedia)
-        
+
+        init.tabNews('#tabpbtin', init.Config.urlPhoBanDon)
         init.tabNews('#tabdon', init.Config.urlPhoBanDon)
         init.tabNews('#tab8x', init.Config.urlPhoBan8x)
         init.tabNews('#tab9x', init.Config.urlPhoBan9x)
