@@ -14,6 +14,16 @@ var init = {
         urltabBoKhoai: 'feeds/posts/default/-/Bổ%20Khoái?alt=json&max-results=3',
         urltabDuHiep: 'feeds/posts/default/-/Du%20Hiệp?alt=json&max-results=3',
         urltabSatthu: 'feeds/posts/default/-/Sát%20Thủ?alt=json&max-results=3',
+
+        urlWolfGaming: 'feeds/posts/default/-/WolfGaming?alt=json&max-results=6',
+        urlWolfGamingVideo: 'feeds/posts/default/-/WolfGamingVideo?alt=json&max-results=6',
+        urlWolfGamingAnh: 'feeds/posts/default/-/WolfGamingAnh?alt=json&max-results=6',
+
+        urlPhoBanDon: 'feeds/posts/default/-/PhoBanDon?alt=json&max-results=6',
+        urlPhoBan8x: 'feeds/posts/default/-/urlPhoBan8x?alt=json&max-results=6',
+        urlPhoBan9x: 'feeds/posts/default/-/urlPhoBan9x?alt=json&max-results=6',
+        urlPhoBan10x: 'feeds/posts/default/-/urlPhoBan10x?alt=json&max-results=6',
+
     }),
     Main:() =>{
         init.tabNews('#hotnews', init.Config.urlHotNews)
@@ -22,14 +32,14 @@ var init = {
         init.tabNews('#tabhd', init.Config.urltabHd)
         init.tabNews('#tabMedia', init.Config.urltabMedia)
         
-        init.tabNews('#tabdon', init.Config.urlHotNews)
-        init.tabNews('#tab8x', init.Config.urltabTin)
-        init.tabNews('#tab9x', init.Config.urltabEvent)
-        init.tabNews('#tab10x', init.Config.urltabHd)
+        init.tabNews('#tabdon', init.Config.urlPhoBanDon)
+        init.tabNews('#tab8x', init.Config.urlPhoBan8x)
+        init.tabNews('#tab9x', init.Config.urlPhoBan9x)
+        init.tabNews('#tab10x', init.Config.urlPhoBan10x)
 
-        init.tabNews('#tabWGtin', init.Config.urlHotNews)
-        init.tabNews('#tabWGVideo', init.Config.urltabTin)
-        init.tabNews('#tabWGAnh', init.Config.urltabEvent)
+        init.tabNews('#tabWGtin', init.Config.urlWolfGaming)
+        init.tabNews('#tabWGVideo', init.Config.urlWolfGamingVideo)
+        init.tabNews('#tabWGAnh', init.Config.urlWolfGamingAnh)
 
         init.tabNews('#tabTieuSu', init.Config.urltabTieuSu)
         init.tabNews('#tabThoSan', init.Config.urltabThoSan)
