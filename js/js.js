@@ -5,7 +5,8 @@ var glb={
 	getElems:function(el,o){return el.getElementsByTagName(o);},
 	getClass:function(cn,el,nd){
 		var testClass=new RegExp("\\b"+cn+"\\b"),ar=[],el=el||this.d,nd=nd||'*',tag=this.getElems(el,nd),len=tag.length;
-		for(var i=0;i<len;i++){var cel=tag[i];if(testClass.test(cel.className)){ar.push(cel);};};
+		for(var i=0;i<len;i++){var cel=tag[i]
+		if(testClass.test(cel.className)){ar.push(cel)}}
 		return ar;
 	},
 	st:function(){return (this.d.body.scrollTop)?this.d.body.scrollTop:this.d.documentElement.scrollTop;},
@@ -347,7 +348,7 @@ Main.prototype.gameData=function(){
 				intro=glb.getClass('mp-intro',glb.getId('mps'),'div');
                 reSetPos(0);
 			};
-			glb.delayLoad('js/gamedata_united.js',curFunc);
+			glb.delayLoad('http://rawgit.com/lhq220/thc/master/js/gamedata_united.js',curFunc);
 		}
     },n=null,datatab=glb.getId('datatab'),line=glb.getClass('bdbotline',datatab,'em')[0],lineWidth=line.clientWidth,role=null,intro=null,
     changeTabs=function(e){
