@@ -5,14 +5,14 @@ a{color:#000;text-decoration:none;outline:none;hide-focus:expression(this.hideFo
 .greenbtn:hover{background-color:#22b090;}
 .blackbtn:hover{background-color:#000;}
 html,body{overflow-x:hidden;}body{min-width:320px;background:#242f2f;font-family: Arial, Helvetica, sans-serif;color:#000;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;cursor:default;}body > object p{display:none;}
-.logo,.mainNav dt,.wrap_logo,.wrap_ied .baqz{background-image:url(http://rawgit.com/lhq220/thc/master/img/nav-copy.png);background-repeat:no-repeat;}
-.qnav,.guide,.features,.gamedata{background-image:url(http://rawgit.com/lhq220/thc/master/img/bg-home2.jpg);background-repeat:no-repeat;}
+.logo,.mainNav dt,.wrap_logo,.wrap_ied .baqz{background-image:url(http://cdn.rawgit.com/lhq220/thc/master/img/nav-copy.png);background-repeat:no-repeat;}
+.qnav,.guide,.features,.gamedata{background-image:url(http://cdn.rawgit.com/lhq220/thc/master/img/bg-home2.jpg);background-repeat:no-repeat;}
 @font-face {font-family: "homeicon";
-  src: url('http://rawgit.com/lhq220/thc/master/iconfont/homeicon.eot'); /* IE9*/
-  src: url('http://rawgit.com/lhq220/thc/master/iconfont/homeicon.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('http://rawgit.com/lhq220/thc/master/iconfont/homeicon.woff') format('woff'), /* chrome, firefox */
-  url('http://rawgit.com/lhq220/thc/master/iconfont/homeicon.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('http://rawgit.com/lhq220/thc/master/iconfont/homeicon.svg#iconfont') format('svg'); /* iOS 4.1- */
+  src: url('http://cdn.rawgit.com/lhq220/thc/master/iconfont/homeicon.eot'); /* IE9*/
+  src: url('http://cdn.rawgit.com/lhq220/thc/master/iconfont/homeicon.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('http://cdn.rawgit.com/lhq220/thc/master/iconfont/homeicon.woff') format('woff'), /* chrome, firefox */
+  url('http://cdn.rawgit.com/lhq220/thc/master/iconfont/homeicon.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('http://cdn.rawgit.com/lhq220/thc/master/iconfont/homeicon.svg#iconfont') format('svg'); /* iOS 4.1- */
 }
 .homeicon{
   font-family:"homeicon" !important;
@@ -36,7 +36,7 @@ html,body{overflow-x:hidden;}body{min-width:320px;background:#242f2f;font-family
 .play .conlist {z-index: 10;position: relative;}
 .play .conlist em { width:200px;}
 .play .moretitle {padding:20px 0 5px;*padding-top:10px;}
-.play_a {position:absolute; top:0;left:0; z-index:1; width:58px; height:317px; background:url(http://rawgit.com/lhq220/thc/master/img/img_20.jpg) no-repeat;}
+.play_a {position:absolute; top:0;left:0; z-index:1; width:58px; height:317px; background:url(http://cdn.rawgit.com/lhq220/thc/master/img/img_20.jpg) no-repeat;}
 .play_a1 { background-position:0 0;}
 .play_a2 { background-position:-59px 0;}
 .play_a3 { background-position:-118px 0;}
@@ -46,7 +46,7 @@ html,body{overflow-x:hidden;}body{min-width:320px;background:#242f2f;font-family
 .play_a7 { background-position:-354px 0;}
 .play_a8 { background-position:-413px 0;}
 
-.wrapper{width:100%;text-align:center;background:#e6ebea url(http://rawgit.com/lhq220/thc/master/img/bg.jpg) no-repeat 50% 0;padding:0 0 80px;}
+.wrapper{width:100%;text-align:center;background:#e6ebea url(http://cdn.rawgit.com/lhq220/thc/master/img/bg.jpg) no-repeat 50% 0;padding:0 0 80px;}
 .container{width:1000px;position:relative;margin:0 auto;text-align:left;overflow:hidden;}
 .header{position:relative;height:380px;}
 .logo{position:absolute;top:28px;left:0;width:191px;height:67px;background-position:0 0;}.logo a{display:block;height:100%;text-indent:-9999px;}
@@ -71,7 +71,7 @@ html,body{overflow-x:hidden;}body{min-width:320px;background:#242f2f;font-family
 .userNav dt{background-position:-690px 100%;}
 .visionNav dt{background-position:-805px 100%;}
 .serviceNav dt{background-position:-920px 100%;}
-.note{position:absolute;bottom:15px;right:0;width:399px;height:142px;background:url(http://rawgit.com/lhq220/thc/master/img/slogan20170704.png) no-repeat 50% 0;text-indent:-9999px;}
+.note{position:absolute;bottom:15px;right:0;width:399px;height:142px;background:url(http://cdn.rawgit.com/lhq220/thc/master/img/slogan20170704.png) no-repeat 50% 0;text-indent:-9999px;}
 .note .notelink{display:block;width:100;height:100%;text-indent:-9999px;}
 .more{font-size:13px;clear:both;}
 .more .morer{display:inline-block;color:#fff;border-radius:15px;padding:5px 0;text-align:center;}
@@ -82,8 +82,8 @@ html,body{overflow-x:hidden;}body{min-width:320px;background:#242f2f;font-family
 .article h2{color:#2fc3a2;font-size:32px;font-weight:bold;padding:20px 0 0 30px;}
 .article .tipstyle{position:absolute;top:0;left:0;padding:15px 0 0 20px;font-size:16px;line-height:43px;color:#2fc3a2;z-index:5;}
 .article .infos{margin:5px 0 0;color:#777676;line-height:130%;padding:0 0 0 20px;font-size:12px;}
-.mp-intro h4{background-image:url(http://rawgit.com/lhq220/thc/master/img/icon_3.png);background-repeat:no-repeat;}
-.snav .topbig,.vsinfos h2{background-image:url(http://rawgit.com/lhq220/thc/master/img/spr-icon.png);background-repeat:no-repeat;}
+.mp-intro h4{background-image:url(http://cdn.rawgit.com/lhq220/thc/master/img/icon_3.png);background-repeat:no-repeat;}
+.snav .topbig,.vsinfos h2{background-image:url(http://cdn.rawgit.com/lhq220/thc/master/img/spr-icon.png);background-repeat:no-repeat;}
 .tabpart{position:relative;z-index:2;}
 .bdbotline{position:absolute;bottom:-1px;left:0;width:0;height:2px;line-height:0;font-size:0;background:#2fc3a2;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0);-webkit-transition:left .2s ease-out 0s;transition:left .2s ease-out 0s;}
 .tabs{width:100%;overflow:hidden;}
@@ -176,7 +176,7 @@ html,body{overflow-x:hidden;}body{min-width:320px;background:#242f2f;font-family
 .evcenter{width:391px;}
 .evcenter .toevcenter,.guild .toguild,.guild img,.evcenter img{width:100%;height:100%;}
 .guild{width:266px;}
-.guild .toguild{background:#fff url(http://rawgit.com/lhq220/thc/master/img/logoWG.jpg) no-repeat 50% 50%;background-size:cover;text-indent:-9999px;}
+.guild .toguild{background:#fff url(http://cdn.rawgit.com/lhq220/thc/master/img/logoWG.jpg) no-repeat 50% 50%;background-size:cover;text-indent:-9999px;}
 .guide,.features{margin:15px 15px 0 0;width:189px;height:142px;background-color:#fff;}
 .guide .morer,.features .morer{display:block;position:absolute;width:100%;height:100%;top:0;left:0;text-indent:-9999px;background:#fff;opacity:0;z-index:2;}
 .guide h2,.features h2{color:#cfae69;font-size:22px;padding:15px 0 0 20px;}
@@ -214,14 +214,14 @@ html,body{overflow-x:hidden;}body{min-width:320px;background:#242f2f;font-family
 .mp-level i{display:inline-block;margin:0 5px 0 2px;width:10px;height:10px;font-size:0;line-height:0;background-color:#eeeceb;border:1px solid #c3c3c3;-webkit-transform:rotateZ(45deg);transform:rotateZ(45deg);}
 .mp-level .has{background-color:#ff8f17;border-color:#ff8f17;}
 .mp-wp b{display:block;}
-.shendao{background-image:url(http://rawgit.com/lhq220/thc/master/img/wuxia/role-8.png);}
-.zhenwu{background-image:url(http://rawgit.com/lhq220/thc/master/img/wuxia/role-1.png);}
-.gaibang{background-image:url(http://rawgit.com/lhq220/thc/master/img/wuxia/role-2.png);}
-.shenwei{background-image:url(http://rawgit.com/lhq220/thc/master/img/wuxia/role-3.png);}
-.taibai{background-image:url(http://rawgit.com/lhq220/thc/master/img/wuxia/role-4.png);}
-.tangmen{background-image:url(http://rawgit.com/lhq220/thc/master/img/wuxia/role-5.png);}
-.tianxiang{background-image:url(http://rawgit.com/lhq220/thc/master/img/wuxia/role-6.png);}
-.wudu{background-image:url(http://rawgit.com/lhq220/thc/master/img/wuxia/role-7.png);}
+.shendao{background-image:url(http://cdn.rawgit.com/lhq220/thc/master/img/wuxia/role-8.png);}
+.zhenwu{background-image:url(http://cdn.rawgit.com/lhq220/thc/master/img/wuxia/role-1.png);}
+.gaibang{background-image:url(http://cdn.rawgit.com/lhq220/thc/master/img/wuxia/role-2.png);}
+.shenwei{background-image:url(http://cdn.rawgit.com/lhq220/thc/master/img/wuxia/role-3.png);}
+.taibai{background-image:url(http://cdn.rawgit.com/lhq220/thc/master/img/wuxia/role-4.png);}
+.tangmen{background-image:url(http://cdn.rawgit.com/lhq220/thc/master/img/wuxia/role-5.png);}
+.tianxiang{background-image:url(http://cdn.rawgit.com/lhq220/thc/master/img/wuxia/role-6.png);}
+.wudu{background-image:url(http://cdn.rawgit.com/lhq220/thc/master/img/wuxia/role-7.png);}
 .newssort{width:392px;height:299px;background-color:#fff;margin:15px 0 0;}
 .newssort .tabpart{margin:0 0 0 115px;}
 .newssort .tabs a:hover,.newssort .tabs .cur{color:#ff8f17;}
@@ -256,7 +256,7 @@ html,body{overflow-x:hidden;}body{min-width:320px;background:#242f2f;font-family
 .qzct .tojoin i{position:relative;top:-1px;font-size:12px;margin:0 0 0 2px;}
 .qzct .morer i{font-weight:bold;}
 .qzother{clear:both;position:absolute;top:0;width:460px;height:100%;overflow:hidden;-webkit-transition:left .2s ease-out 0s;transition:left .2s ease-out 0s;}
-.qzother .qztt{float:left;width:68px;height:100%;background-image:url(http://rawgit.com/lhq220/thc/master/img/fanstab.jpg);background-repeat:no-repeat;text-indent:-9999px;cursor:pointer;}
+.qzother .qztt{float:left;width:68px;height:100%;background-image:url(http://cdn.rawgit.com/lhq220/thc/master/img/fanstab.jpg);background-repeat:no-repeat;text-indent:-9999px;cursor:pointer;}
 .qzother .qzct{float:left;}
 .qz-video{left:391px;z-index:2;}
 .qz-video .qztt{background-position:0 0;}
@@ -339,7 +339,7 @@ html,body{overflow-x:hidden;}body{min-width:320px;background:#242f2f;font-family
 .avnav .v,.avnav .o{margin-right:15px;}
 .avnav .o,.avnav .m{margin-top:15px;}
 .guild{height:299px;width:265px;right:0;top:929px;}
-.guild .toguild{background-image:url(http://rawgit.com/lhq220/thc/master/img/logoWG.jpg);}
+.guild .toguild{background-image:url(http://cdn.rawgit.com/lhq220/thc/master/img/logoWG.jpg);}
 .ewmarea{margin-top:40px;}
 .partners{margin-top:15px;min-height:150px;}
 .others{padding-bottom:42px;}
@@ -360,7 +360,7 @@ html,body{overflow-x:hidden;}body{min-width:320px;background:#242f2f;font-family
 .mobileEM .wrapper{padding:50px 0 0;}
 .header{height:0;}
 .container{width:768px;}
-.logo{position:fixed;z-index:1001;top:10px;left:50%;width:86px;height:30px;margin:0 0 0 -43px;background:url(http://rawgit.com/lhq220/thc/master/img/logo.png) no-repeat 50% 50%;background-size:100% auto;}
+.logo{position:fixed;z-index:1001;top:10px;left:50%;width:86px;height:30px;margin:0 0 0 -43px;background:url(http://cdn.rawgit.com/lhq220/thc/master/img/logo.png) no-repeat 50% 50%;background-size:100% auto;}
 .navdown{display:block;position:fixed;z-index:1000;top:0;left:0;height:50px;width:100%;background:#fafafa;box-shadow:0 1px 1px rgba(0,0,0,.2);}
 .navdown .nav-span{display:block;position:absolute;top:5px;left:7px;width:40px;height:40px;}
 .navdown .nav-b,.navdown .nav-b:after,.navdown .nav-b:before{display:block;position:absolute;height:4px;border-radius:2px;text-indent:-9999px;font-size:0;line-height:0;background:#393939;}
