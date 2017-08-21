@@ -1,6 +1,6 @@
 var init = {
     Config:({
-        url: 'https://thamhaucung.blogspot.com/',
+        url: 'https://thiennhaivietnam.blogspot.com/',
         urlHotNews: 'feeds/posts/default?alt=json&max-results=6',
         urltabTin: 'feeds/posts/default/-/Thông%20tin?alt=json&max-results=6',
         urltabEvent: 'feeds/posts/default/-/Event?alt=json&max-results=6',
