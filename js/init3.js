@@ -46,7 +46,7 @@ var init = {
         init.tabNews('#tabTieuSu', init.Config.urltabTieuSu)
         init.tabNews('#tabThoSan', init.Config.urltabThoSan)
         init.tabNews('#tabVanSi', init.Config.urltabVanSi)
-        init.tabNews('#tabNhacLinh', init.Config.urltabBoKhoai)
+        init.tabNews('#tabNhacLinh', init.Config.urltabNhacLinh)
         init.tabNews('#tabBoKhoai', init.Config.urltabBoKhoai)
         init.tabNews('#tabDuHiep', init.Config.urltabDuHiep)
         init.tabNews('#tabSatThu', init.Config.urltabSatthu)
